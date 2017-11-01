@@ -36,7 +36,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         warnings: false,
         drop_console: true
       },
-      sourceMap: true
+      sourceMap: false
     }),
     // extract css into its own file
     new ExtractTextPlugin({
