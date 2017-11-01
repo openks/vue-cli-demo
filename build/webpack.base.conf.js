@@ -26,6 +26,11 @@ module.exports = {
       '@': resolve('src'),
     }
   },
+  externals: {
+    //key 是 require 的包名，value 是全局的变量。
+    'vue': 'Vue',
+    'element-ui': 'element-ui'
+  },
   module: {
     rules: [
       {
