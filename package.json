@@ -8,13 +8,16 @@
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
     "compression-webpack-plugin": "^1.0.1",
     "element-ui": "^2.0.2",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-styleguidist": "^1.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
