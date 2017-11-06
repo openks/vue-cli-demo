@@ -10,7 +10,12 @@
     "build": "node build/build.js",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "stylelint:staged": "node node_modules/stylelint/bin/stylelint",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.vue": "stylelint:staged"
   },
   "dependencies": {
     "compression-webpack-plugin": "^1.0.1",
