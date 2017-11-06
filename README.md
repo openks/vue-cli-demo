@@ -2,6 +2,15 @@
 
 > A Vue.js project
 
+组件文档化-可自定义组件文档
+添加stylelint校验(不成功)
+生产环境关闭sourcemap
+vue-router启用webpack-externals+cdn
+生产环境调整hash长度
+生产环境开启gzip（默认小于1k不开启）
+启用webpack-externals+cdn
+生产环境关闭console
+设置css-module类名样式
 ## Build Setup
 
 ``` bash
