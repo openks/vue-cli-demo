@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-组件文档化-可自定义组件文档
+组件文档化-可自定义组件文档(使用vue-styleguide)
 添加stylelint校验(不成功)
 生产环境关闭sourcemap
 vue-router启用webpack-externals+cdn
